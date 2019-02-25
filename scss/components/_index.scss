@@ -4,6 +4,11 @@
 // **************************************
 
 // import the grid component
-@import 'grid';
+@import 'buttons',
+        'forms',
+        'grid',
+        'images',
+        'navigation',
+        'typography';
 
 // NOTE: import other components here:
