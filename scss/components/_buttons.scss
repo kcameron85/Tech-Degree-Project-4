@@ -1,0 +1,14 @@
+.btn {
+  @each $theme, $colors in $button_colors {
+    &--#{$theme} {
+      @include buttons(map-get($button_colors, $theme));
+    }
+  }
+}
+
+.btn--default[type="submit"] {
+  margin: 0 -15px;
+  width: $button_calc;
+  padding: 10px;
+  border-radius: 5px;
+}

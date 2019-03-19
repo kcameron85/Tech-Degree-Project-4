@@ -1,0 +1,28 @@
+$base_font: 'Roboto', sans-serif;
+$theme_color_one: #58e1c1;
+$inline_links: #51ddfc;
+$button_calc: calc(100% + 30px) ;
+
+$grid_colors: (
+  'grid-3': #deb2ee,
+  'grid-4': #7ee6fd,
+  'grid-5': #88d9a0,
+  'grid-6': #3fabca,
+  'grid-7': #ec9fa3,
+  'grid-8': #fd9f85,
+  'grid-12': #80e8d1,
+);
+
+$button_colors: (
+  'info': #927bc1,
+  'warning': #fd7856,
+  'error': #e4757a,
+  'success': #63cc82,
+  'default': #51ddfc
+);
+
+$breakpoints: (
+  'sm': 480px,
+  'med': 768px,
+  'lg': 1400px
+);

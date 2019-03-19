@@ -1,0 +1,19 @@
+.form {
+  padding: 0 15px;
+}
+
+.form .headline--secondary {
+  margin: 1.33em 0;
+}
+
+.form__label--hidden {
+  display: none;
+}
+
+.form__input {
+  @extend %form_inputs;
+  margin-bottom: 1.33em;
+  &:first-of-type {
+    margin-top: 1.33em;
+  }
+}

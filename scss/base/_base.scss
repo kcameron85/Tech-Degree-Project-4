@@ -1,0 +1,12 @@
+* {
+  font-family: $base_font;
+  font-weight: normal;
+  color: #808080;
+  box-sizing: border-box;
+}
+
+//link in paragraph
+p  a {
+  @extend %links;
+  color: $inline_links;
+}

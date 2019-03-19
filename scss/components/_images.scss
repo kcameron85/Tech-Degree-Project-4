@@ -1,0 +1,18 @@
+.img {
+
+  &--logo {
+    @extend %img;
+    width: 162px;
+  }
+
+  &--frame {
+    @extend %img;
+  }
+
+  &--avatar {
+    @extend %img;
+  }
+}
+.link {
+  width: 100%;
+}

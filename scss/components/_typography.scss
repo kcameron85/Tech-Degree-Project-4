@@ -1,0 +1,16 @@
+.headline--primary {
+  color: $theme_color_one;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1;
+  padding-left: 15px;
+}
+
+.blockquote {
+  border-left: 8px solid $theme_color_one;
+  padding-left: 10px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.25;
+}

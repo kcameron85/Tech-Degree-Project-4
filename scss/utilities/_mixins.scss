@@ -1,0 +1,15 @@
+
+//Mixin for styling button colors
+@mixin buttons($color){
+  background-color: $color;
+  border: 2px solid $color;
+}
+
+
+//flexbox mixin
+@mixin flex($disp: null, $dir: null, $cnt: null) {
+  display: $disp;
+  flex-direction: $dir;
+  justify-content: $cnt;
+}
+
