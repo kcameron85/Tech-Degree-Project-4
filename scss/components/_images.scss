@@ -7,12 +7,16 @@
 
   &--frame {
     @extend %img;
+    padding: 15px;
+    border: 1px solid $theme_color_two;
   }
 
   &--avatar {
     @extend %img;
+    margin-top: 1.33rem;
   }
 }
+
 .link {
   width: 100%;
 }

@@ -416,7 +416,7 @@ p a {
 }
 
 .form .headline--secondary {
-  margin: 1.33em 0;
+  margin: 1.33em 0 0 0;
 }
 
 .form__label--hidden {
@@ -591,6 +591,14 @@ p a {
 .img--logo {
   width: 162px;
 }
+.img--frame {
+  padding: 15px;
+  border: 1px solid #808080;
+}
+.img--avatar {
+  margin-top: 1.33rem;
+}
+
 .link {
   width: 100%;
 }
