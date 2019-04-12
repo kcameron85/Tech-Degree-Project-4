@@ -10,3 +10,9 @@ p  a {
   @extend %links;
   color: $inline_links;
 }
+
+.card:nth-of-type p {
+  @include mq('lg'){
+    margin: 60px 0;
+  }
+}

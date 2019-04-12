@@ -3,6 +3,14 @@
 .nav {
   padding-left: 0;
   @include flex(flex, column);
+
+  @include mq('md') {
+    @include flex ($dir: row, $cnt:flex-end);
+  }
+
+  @include mq('lg'){
+    margin-right: 125px;
+  }
 }
 
 .nav__item {
@@ -20,5 +28,6 @@
     }
     background-color: $theme_color_one;
   }
+
 }
 

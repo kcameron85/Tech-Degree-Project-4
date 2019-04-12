@@ -6,9 +6,29 @@
   }
 }
 
-.btn--default[type="submit"] {
+[class^="btn"] {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  margin: 25px 0;
+  color: $them_color_three;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  @include mq('md') {
+    width: calc(100%/5 - 20px);
+    float: left;
+    margin: 0 10px;
+  }
+  @include mq('lg') {
+    width: calc(100%/5 - 50px);
+    margin: 0 25px;
+  }
+}
+
+[type="submit"] {
   margin: 0 -15px;
   width: $button_calc;
-  padding: 10px;
-  border-radius: 5px;
 }
+
+

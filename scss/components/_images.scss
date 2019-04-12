@@ -13,8 +13,15 @@
 
   &--avatar {
     @extend %img;
-    margin-top: 1.33rem;
+    margin: 1.33rem auto;
+    @include mq('md') {
+      margin: 0 auto 0;
+    }
   }
+}
+
+.form > .img--avatar {
+  margin: 1.33rem auto;
 }
 
 .link {
