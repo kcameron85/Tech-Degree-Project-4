@@ -375,7 +375,7 @@ p a {
 }
 
 @media (min-width: 1400px) {
-  .card:nth-of-type p {
+  .card:first-of-type p {
     margin: 60px 0;
   }
 }
