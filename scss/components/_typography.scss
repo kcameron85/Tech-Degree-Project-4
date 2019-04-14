@@ -13,4 +13,10 @@
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.25;
+  @include mq('md') {
+    font-size: 1.25rem;
+  }
+  @include mq('lg'){
+    font-size: 1.75rem;
+  }
 }

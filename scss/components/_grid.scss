@@ -14,7 +14,10 @@
       text-align: center;
       border-radius:  5px;
       @include mq('md') {
-        margin-bottom: 10px;
+        margin-bottom: 40px;
+      }
+      @include mq('lg') {
+        margin-bottom: 50px;
       }
     }
   }
@@ -22,41 +25,50 @@
 
 .grid {
   &__col--12.theme__colors {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     @include mq('md') {
       margin-bottom: 0;
     }
   }
   &__col--6.theme__colors + &__col--6.theme__colors {
-      margin-bottom: 30px;
+      margin-bottom: 35px;
     @include mq('md') {
-      margin-bottom: 10px;
+      margin-bottom: 40px;
+    }
+    @include mq('lg') {
+      margin-bottom: 50px;
     }
   }
   &__col--8 + &__col--4 {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
       @include mq('md') {
         margin-bottom: 0;
       }
   }
   &__col--4.theme__colors {
     &:nth-of-type(3) {
-      margin-bottom: 30px;
+      margin-bottom: 35px;
       @include mq('md') {
-        margin-bottom: 10px;
+        margin-bottom: 40px;
+      }
+      @include mq('lg') {
+        margin-bottom: 50px;
       }
     }
   }
   &__col--3.theme__colors {
     &:nth-of-type(4) {
-      margin-bottom: 30px;
+      margin-bottom: 35px;
       @include mq('md') {
-        margin-bottom: 10px;
+        margin-bottom: 40px;
+      }
+      @include mq('lg') {
+        margin-bottom: 50px;
       }
     }
   }
   &__col--5 + &__col--7 {
-      margin-bottom: 30px;
+      margin-bottom: 35px;
       @include mq('md') {
         margin-bottom: 0;
       }

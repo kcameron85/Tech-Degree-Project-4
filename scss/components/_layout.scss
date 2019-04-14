@@ -1,8 +1,13 @@
 .container {
   padding: 40px 30px 30px 30px;
   line-height: 1.5;
+  @include mq('md') {
+    padding-bottom: 0;
+  }
   @include mq('lg') {
     padding: 40px 125px 30px;
+    width: 1400px;
+    margin: 0 auto;
   }
 }
 
@@ -11,6 +16,16 @@
 
   @include mq('md') {
     padding: 0 25px 15px 15px;
+  }
+}
+
+@include mq('lg') {
+  .container h4 {
+    margin: 50px 0;
+  }
+
+  .card h4:nth-of-type(1) {
+    margin: 22px 0;
   }
 }
 
