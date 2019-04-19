@@ -19,6 +19,13 @@
   }
 }
 
+.card p:first-child {
+  @include mq('lg'){
+    margin: 60px 0;
+    font-size: 18px;
+  }
+}
+
 @include mq('lg') {
   .container h4 {
     margin: 50px 0;

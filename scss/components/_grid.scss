@@ -10,11 +10,13 @@
   @for $i from 3 through 12 {
     .theme__colors.grid__col--#{$i} {
       background-color: map-get($grid_colors, grid-#{$i});
-      padding: 12px 0;
-      text-align: center;
+      padding: 12px 0 12px 10px;
+      text-align: left;
       border-radius:  5px;
       @include mq('md') {
         margin-bottom: 40px;
+        padding-left: 0;
+        text-align: center;
       }
       @include mq('lg') {
         margin-bottom: 50px;
